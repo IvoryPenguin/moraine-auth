@@ -1,0 +1,24 @@
+{
+  "env": {
+    "node": 1
+  },
+
+  "globals": {
+    "amd": 1
+  },
+
+  "rules": {
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "camelcase": [2],
+    "comma-spacing": [2, {before: false, after: true}],
+    "comma-style": [2, "last"],
+    "complexity": [1, 2],
+    "curly": [2, "all"],
+    "no-delete-var": [2],
+    "no-multiple-empty-lines": [2, {"max": 2}],
+    "no-spaced-func": [2],
+    "quotes": [2, "single"],
+    "sort-vars": [1, { "ignoreCase": true }],
+    "spaced-line-comment": [2, "always"]
+  }
+}
